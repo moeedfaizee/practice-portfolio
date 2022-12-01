@@ -1,6 +1,6 @@
 @import url(utilities.css);
 :root{
-    --primary: #bbf7d0;
+    --primary: #F87171;
     --dark:#161616;
     --pure:#FFFFFF;
     --ternary:#898989;
@@ -146,7 +146,7 @@ header{
  }
 
  section.about .social a{
-     background:var(--dark);
+     background:var(--pure);
      display: flex;
      align-items: center;
      justify-content: center;
@@ -203,7 +203,7 @@ section.services .card-wrapper .card{
     padding-top: 5rem;
     text-align: center;
     transition: all .3s ease;
-    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 90%, 0% 90%);
 }
 
 section.services .card-wrapper .card img{

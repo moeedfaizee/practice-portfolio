@@ -22,7 +22,7 @@ html{
 }
 header{
     background:var(--dark);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 84%, 0 100% );
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 90%, 0 100% );
     
 }
 
@@ -203,15 +203,16 @@ section.services .card-wrapper .card{
     padding-top: 5rem;
     text-align: center;
     transition: all .3s ease;
-    clip-path: polygon(25% 0%, 100% 0%, 75% 90%, 0% 90%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 }
 
 section.services .card-wrapper .card img{
     position: absolute;
     top: -0.5rem;
     left: 60%;
+    bottom: 30rem;
     transform: translateX(-50%);
-    width: 6rem;
+    width: 9rem;
     height: 5rem;
     
 }
